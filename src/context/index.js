@@ -1,17 +1,15 @@
-import React, { useState, useContext } from "react";
-import deepMerge from "deepmerge";
+import React, { useState, useContext, useReducer } from "react";
 import Reducer from "./reducer";
 
 export const Context = React.createContext();
 
 const defaultState = {
-  answers: {}
+  page: "Home"
 };
 
-export function createProvider(initialState = []) {
-  const mergedState = deepMerge(defaultState, initialState);
+export function createProvider() {
   return function Provider({ children }) {
-    const [state, dispatch] = useState(Reducer, mergedState);
+    const [state, dispatch] = useReducer(Reducer, defaultState);
     return (
       <Context.Provider value={{ state, dispatch }}>
         {children}

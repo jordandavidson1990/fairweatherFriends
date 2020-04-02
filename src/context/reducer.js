@@ -1,1 +1,3 @@
-export default function Router(state, action) {}
+export default function Reducer(state, action) {
+  return state;
+}
