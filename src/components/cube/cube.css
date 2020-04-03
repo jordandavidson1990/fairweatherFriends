@@ -4,7 +4,7 @@
   align-items: center;
   height: 100%;
 }
-*/ body {
+body {
   background: #333;
 }
 
@@ -41,10 +41,6 @@
   backface-visibility: hidden;
 }
 
-#cube figure p {
-  position: relative;
-}
-
 #cube .front {
   transform: rotateY(0deg) translateZ(250px);
 }
@@ -77,8 +73,10 @@
     transform: rotateY(0deg) rotateX(0deg);
   }
 }
-
-image {
-  max-width: 40vw;
-  max-height: 40vh;
-}
+/* 
+#cube img {
+  width: 70vw;
+  height: 70vh;
+  border: 3px double rgb(42, 14, 42);
+  padding: 70vh;
+} */

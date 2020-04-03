@@ -2,3 +2,9 @@ body {
   background: rgb(79, 59, 97);
   color: cadetblue;
 }
+
+a {
+  text-decoration: none;
+  font: bold;
+  color: black;
+}
