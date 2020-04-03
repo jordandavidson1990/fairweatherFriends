@@ -1,3 +1,10 @@
 export default function Reducer(state, action) {
-  return state;
+  switch (action.type) {
+    case "SET_PAGE":
+      return {
+        page: action.data
+      };
+    default:
+      throw new Error();
+  }
 }

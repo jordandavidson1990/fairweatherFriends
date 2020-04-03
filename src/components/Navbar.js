@@ -1,15 +1,39 @@
 import React from "react";
 import { Link } from "@reach/router";
 import "./Navbar.css";
-import { useDispatch } from "../context";
+import { useDispatch, useSelector } from "../context";
 
 export default function Navbar() {
   const dispatch = useDispatch();
-  // TODO dispatch call to set page to be different depending on what link is clicked
+
+  const handleClick = e => {
+    dispatch({ type: "SET_PAGE", data: e.target.value });
+  };
+
+  const { page } = useSelector(state => state);
+
   return (
     <nav>
-      <Link to="/">Home</Link>
-      <Link to="/tunes">Tunes</Link>
+      <Link to="/">
+        <button
+          type="button"
+          onClick={e => handleClick(e)}
+          value="Home"
+          className={page === "Home" ? "selected" : "not-selected"}
+        >
+          Home
+        </button>
+      </Link>
+      <Link to="/tunes">
+        <button
+          type="button"
+          onClick={e => handleClick(e)}
+          value="Tunes"
+          className={page === "Tunes" ? "selected" : "not-selected"}
+        >
+          Tunes
+        </button>
+      </Link>
     </nav>
   );
 }
