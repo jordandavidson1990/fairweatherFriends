@@ -12,28 +12,21 @@ export default function Navbar() {
 
   const { page } = useSelector(state => state);
 
-  return (
-    <nav>
-      <Link to="/">
+  const pages = ["Home", "Tunes", "Gigs"];
+
+  const links = pages.map((link, index) => {
+    return (
+      <Link to={`/${link.toLowerCase()}`} key={index}>
         <button
-          type="button"
           onClick={e => handleClick(e)}
-          value="Home"
-          className={page === "Home" ? "selected" : "not-selected"}
+          value={link}
+          className={page === link ? "selected" : "not-selected"}
         >
-          Home
+          {link}
         </button>
       </Link>
-      <Link to="/tunes">
-        <button
-          type="button"
-          onClick={e => handleClick(e)}
-          value="Tunes"
-          className={page === "Tunes" ? "selected" : "not-selected"}
-        >
-          Tunes
-        </button>
-      </Link>
-    </nav>
-  );
+    );
+  });
+
+  return <nav>{links}</nav>;
 }

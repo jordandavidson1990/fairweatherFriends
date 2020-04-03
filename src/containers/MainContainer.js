@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
 import FrontImage from "../components/FrontImage";
-import TuneButton from "../components/buttons/TuneButton";
 
 export default function MainContainer() {
   const [title, setTitle] = useState("Fairweather Friends");
@@ -25,7 +24,6 @@ export default function MainContainer() {
   return (
     <>
       <Header title={title} />
-      <TuneButton />
       <FrontImage img={image} />
       <button onClick={showJazzyImage} type="button">
         Press for Surprise
