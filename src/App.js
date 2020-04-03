@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import MainContainer from "./containers/MainContainer";
 import Tunes from "./pages/Tunes";
 import Gigs from "./pages/Gigs";
+import CubePage from "./pages/CubePage";
 import "./App.css";
 
 const Provider = createProvider({});
@@ -17,6 +18,7 @@ function App() {
         <MainContainer path="/home" />
         <Tunes path="/tunes" />
         <Gigs path="/gigs" />
+        <CubePage path="/cube" />
       </Router>
     </Provider>
   );
