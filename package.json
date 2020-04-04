@@ -42,5 +42,8 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
