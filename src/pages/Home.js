@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <Header title={title} />
-      <FrontImage img={image} />
+      <FrontImage img={`../assets/${image}`} />
       <button onClick={showJazzyImage} type="button">
         Press for Surprise
       </button>
