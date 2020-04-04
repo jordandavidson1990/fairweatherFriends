@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
 import FrontImage from "../components/FrontImage";
-import { navigate } from "@reach/router";
 
-export default function MainContainer() {
+export default function Home() {
   const [title, setTitle] = useState("Fairweather Friends");
   const [image, setImage] = useState("Jiggy_surreal.jpg");
   const [blindsidersBoolean, setBlindsidersBoolean] = useState(false);

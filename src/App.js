@@ -3,7 +3,7 @@ import { createProvider } from "./context/index";
 import { Router } from "@reach/router";
 import Navbar from "./components/Navbar";
 import Landing from "./pages/Landing";
-import MainContainer from "./containers/MainContainer";
+import Home from "./pages/Home";
 import Tunes from "./pages/Tunes";
 import Gigs from "./pages/Gigs";
 import CubePage from "./pages/CubePage";
@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <Router primary={false}>
         <Landing path="/" />
-        <MainContainer path="/home" />
+        <Home path="/home" />
         <Tunes path="/tunes" />
         <Gigs path="/gigs" />
         <CubePage path="/cube" />
