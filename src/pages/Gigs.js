@@ -11,7 +11,7 @@ export default function Gigs() {
       <li>
         <a href="https://www.facebook.com/FWFMusic">Live Stream</a>
         <CountdownClock date={nextStream} content={"Next Set:"} />
-        <img src="assets/Ross4.jpeg" alt="Sam and Jiggy" />
+        <img src="assets/photos/Ross4.jpeg" alt="Sam and Jiggy" />
       </li>
     </div>
   );

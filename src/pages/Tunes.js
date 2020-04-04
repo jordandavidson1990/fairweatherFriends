@@ -1,6 +1,7 @@
 import React from "react";
 import CountdownClock from "../components/Countdown";
 import HomeButton from "../components/buttons/HomeButton";
+import "./Tunes.css";
 
 export default function Tunes() {
   const songTitles = [

@@ -1,0 +1,15 @@
+.footer {
+  position: absolute;
+  width: 100%;
+  background: cadetblue;
+  color: #4f3b61;
+  bottom: 10px;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer img {
+  width: 4vh;
+}

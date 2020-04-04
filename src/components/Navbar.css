@@ -1,6 +1,7 @@
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  transition: width 100s;
   background: cadetblue;
 }
 
@@ -13,14 +14,20 @@ nav {
   background-color: cadetblue;
   color: rgb(79, 59, 97);
 }
-button {
+nav button {
+  width: 100%;
   border: none;
-  width: 25vw;
-  height: 100%;
   font-weight: bold;
   text-transform: uppercase;
 }
 
+nav a {
+  transition: 40s width;
+}
+
+nav a:hover {
+  width: 30vw;
+}
 button:focus {
   outline: none;
 }

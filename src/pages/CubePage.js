@@ -14,7 +14,7 @@ export default function CubePage() {
     setShowCube(false);
   };
 
-  const handleShowImage = (imageTitle) => {
+  const handleShowImage = imageTitle => {
     setShowImage(true);
     setImage(imageTitle);
   };
@@ -31,7 +31,7 @@ export default function CubePage() {
           Show The Cube
         </button>
       )}
-      {showImage ? <img src={`/assets/gigs/${image}`} alt={image} /> : null}
+      {showImage ? <img src={`/assets/photos/${image}`} alt={image} /> : null}
     </div>
   );
 }
