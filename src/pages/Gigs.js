@@ -10,7 +10,11 @@ export default function Gigs() {
       <p></p>
       <li>
         <a href="https://www.facebook.com/FWFMusic">Live Stream</a>
+<<<<<<< HEAD
         <CountdownClock date={nextStream} content={"Next Set:"} />
+=======
+        <CountdownClock date={nextStream} content={"Time until live stream:"} />
+>>>>>>> master
         <img src="assets/Ross4.jpeg" alt="Sam and Jiggy" />
       </li>
     </div>
