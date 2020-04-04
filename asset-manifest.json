@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/stevo-radio/static/css/main.a5124525.chunk.css",
-    "main.js": "/stevo-radio/static/js/main.8e235b23.chunk.js",
-    "main.js.map": "/stevo-radio/static/js/main.8e235b23.chunk.js.map",
-    "runtime-main.js": "/stevo-radio/static/js/runtime-main.f607c4ac.js",
-    "runtime-main.js.map": "/stevo-radio/static/js/runtime-main.f607c4ac.js.map",
-    "static/css/2.72d5056d.chunk.css": "/stevo-radio/static/css/2.72d5056d.chunk.css",
-    "static/js/2.e271a19b.chunk.js": "/stevo-radio/static/js/2.e271a19b.chunk.js",
-    "static/js/2.e271a19b.chunk.js.map": "/stevo-radio/static/js/2.e271a19b.chunk.js.map",
-    "index.html": "/stevo-radio/index.html",
-    "precache-manifest.3baac07731342212f42b4e2743757e49.js": "/stevo-radio/precache-manifest.3baac07731342212f42b4e2743757e49.js",
-    "service-worker.js": "/stevo-radio/service-worker.js",
-    "static/css/2.72d5056d.chunk.css.map": "/stevo-radio/static/css/2.72d5056d.chunk.css.map",
-    "static/css/main.a5124525.chunk.css.map": "/stevo-radio/static/css/main.a5124525.chunk.css.map",
-    "static/js/2.e271a19b.chunk.js.LICENSE.txt": "/stevo-radio/static/js/2.e271a19b.chunk.js.LICENSE.txt"
+    "main.css": "/fairweather-friends/static/css/main.a5124525.chunk.css",
+    "main.js": "/fairweather-friends/static/js/main.b59a4b2c.chunk.js",
+    "main.js.map": "/fairweather-friends/static/js/main.b59a4b2c.chunk.js.map",
+    "runtime-main.js": "/fairweather-friends/static/js/runtime-main.9a193670.js",
+    "runtime-main.js.map": "/fairweather-friends/static/js/runtime-main.9a193670.js.map",
+    "static/css/2.72d5056d.chunk.css": "/fairweather-friends/static/css/2.72d5056d.chunk.css",
+    "static/js/2.e271a19b.chunk.js": "/fairweather-friends/static/js/2.e271a19b.chunk.js",
+    "static/js/2.e271a19b.chunk.js.map": "/fairweather-friends/static/js/2.e271a19b.chunk.js.map",
+    "index.html": "/fairweather-friends/index.html",
+    "precache-manifest.1f8f91121b8160c5164c91a65cc18d30.js": "/fairweather-friends/precache-manifest.1f8f91121b8160c5164c91a65cc18d30.js",
+    "service-worker.js": "/fairweather-friends/service-worker.js",
+    "static/css/2.72d5056d.chunk.css.map": "/fairweather-friends/static/css/2.72d5056d.chunk.css.map",
+    "static/css/main.a5124525.chunk.css.map": "/fairweather-friends/static/css/main.a5124525.chunk.css.map",
+    "static/js/2.e271a19b.chunk.js.LICENSE.txt": "/fairweather-friends/static/js/2.e271a19b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f607c4ac.js",
+    "static/js/runtime-main.9a193670.js",
     "static/css/2.72d5056d.chunk.css",
     "static/js/2.e271a19b.chunk.js",
     "static/css/main.a5124525.chunk.css",
-    "static/js/main.8e235b23.chunk.js"
+    "static/js/main.b59a4b2c.chunk.js"
   ]
 }
