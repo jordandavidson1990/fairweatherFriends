@@ -4,7 +4,7 @@ import Reducer from "./reducer";
 export const Context = React.createContext();
 
 const defaultState = {
-  page: "Home"
+  page: ""
 };
 
 export function createProvider() {

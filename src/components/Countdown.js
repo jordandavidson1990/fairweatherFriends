@@ -2,7 +2,7 @@ import React from "react";
 import Countdown from "react-countdown-now";
 import "./Countdown.css";
 
-export default function CountdownClock({ date }) {
+export default function CountdownClock({ date, content }) {
   const Completionist = () => <span>Time's Up!</span>;
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
@@ -18,7 +18,7 @@ export default function CountdownClock({ date }) {
   return (
     <div className="countdown">
       <p>
-        New Song incoming:
+        {content}
         <span className="countdownTimer">
           <Countdown date={new Date(date)} renderer={renderer} />
         </span>

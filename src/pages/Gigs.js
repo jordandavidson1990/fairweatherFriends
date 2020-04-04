@@ -2,7 +2,7 @@ import React from "react";
 import CountdownClock from "../components/Countdown";
 
 export default function Gigs() {
-  const nextStream = new Date("2020-04-03T17:40:00.000Z");
+  const nextStream = new Date("2020-04-06T17:30:00.000Z");
   return (
     <div>
       <h1>Gigs</h1>
@@ -10,7 +10,7 @@ export default function Gigs() {
       <p></p>
       <li>
         <a href="https://www.facebook.com/FWFMusic">Live Stream</a>
-        <CountdownClock date={nextStream} />
+        <CountdownClock date={nextStream} content={"Next Set:"} />
         <img src="assets/Ross4.jpeg" alt="Sam and Jiggy" />
       </li>
     </div>

@@ -25,7 +25,10 @@ export default function Tunes() {
     <>
       <h1>Tunes</h1>
       {audio}
-      <CountdownClock date={"2020-04-31T23:59:59.000Z"} />
+      <CountdownClock
+        date={"2020-04-31T23:59:59.000Z"}
+        content={"Next Song Drop:"}
+      />
       <HomeButton />
     </>
   );
