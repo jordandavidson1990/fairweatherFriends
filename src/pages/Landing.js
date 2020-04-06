@@ -1,5 +1,6 @@
 import React from "react";
+import EnterButton from "../components/EnterButton";
 
 export default function Landing() {
-  return <h1>Landing</h1>;
+  return <EnterButton />;
 }

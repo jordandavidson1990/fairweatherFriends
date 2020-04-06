@@ -9,11 +9,13 @@ export const images = [
   "Ross2.jpeg",
   "Ross3.jpeg",
   "Ross4.jpeg",
-  "Wowsers.jpeg"
+  "Wowsers.jpeg",
 ];
 
 export const icons = [
   { image: "facebook", link: "https://www.facebook.com/FWFMusic/" },
   { image: "instagram", link: "https://www.instagram.com/fairweatherglasgow/" },
-  { image: "soundcloud", link: "https://soundcloud.com/user-193030019" }
+  { image: "soundcloud", link: "https://soundcloud.com/user-193030019" },
 ];
+
+export const art = ["colours.jpg", "FWF.jpeg", "IDWTK.jpg", "UpInTheAir.jpeg"];

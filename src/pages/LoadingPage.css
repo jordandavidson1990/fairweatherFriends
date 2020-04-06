@@ -1,0 +1,36 @@
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+#loading p {
+  /* animation: fadein 2s; */
+  background: #4f3b61;
+  border: 2px solid cadetblue;
+  color: cadetblue;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+  padding: 10vw;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 cadetblue;
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px cadetblue;
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 cadetblue;
+  }
+}

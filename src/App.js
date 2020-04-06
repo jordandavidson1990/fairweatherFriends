@@ -1,30 +1,41 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { createProvider } from "./context/index";
 import { Router } from "@reach/router";
-import Navbar from "./components/Navbar";
 import Landing from "./pages/Landing";
-import Home from "./pages/Home";
-import Tunes from "./pages/Tunes";
-import Gigs from "./pages/Gigs";
-import CubePage from "./pages/CubePage";
-import Photos from "./pages/Photos";
 import Footer from "./components/footer";
+import LoadingPage from "./pages/LoadingPage";
+import Navbar from "./components/Navbar";
+import { lazyLoad } from "./helpers/helpers";
 import "./App.css";
+
+const Home = lazyLoad("Home");
+const Tunes = lazyLoad("Tunes");
+const Gigs = lazyLoad("Gigs");
+const CubePage = lazyLoad("CubePage");
+const Photos = lazyLoad("Photos");
+
+const Loading = () => <nav>Loading nav...</nav>;
 
 const Provider = createProvider({});
 
 function App() {
   return (
     <Provider>
-      <Navbar />
-      <Router primary={false}>
-        <Landing path="/" />
-        <Home path="/home" />
-        <Tunes path="/tunes" />
-        <Gigs path="/gigs" />
-        <CubePage path="/cube" />
-        <Photos path="/photos" />
-      </Router>
+      <Suspense fallback={<Loading />}>
+        <Navbar />
+      </Suspense>
+      <Suspense fallback={<LoadingPage />}>
+        <Router primary={false}>
+          <Landing path="/" />
+          <Landing path="/fairweatherFriends" />
+          <Home path="/home" />
+          <Tunes path="/tunes" />
+          <Gigs path="/gigs" />
+          <CubePage path="/cube" />
+          <Photos path="/photos" />
+          <LoadingPage path="/loading" />
+        </Router>
+      </Suspense>
       <Footer />
     </Provider>
   );
