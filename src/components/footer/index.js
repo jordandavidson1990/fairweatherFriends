@@ -6,7 +6,7 @@ export default function Footer() {
   const socialMedias = icons.map((icon, index) => {
     return (
       <a href={icon.link} key={index}>
-        <img src={`assets/${icon.image}.png`} alt={icon.image} />
+        <img src={require(`../../assets/${icon.image}.png`)} alt={icon.image} />
       </a>
     );
   });

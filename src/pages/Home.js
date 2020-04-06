@@ -13,7 +13,7 @@ export default function Home() {
     if (boolean) {
       setBlindsidersBoolean(true);
       setTitle("Blindsiders");
-      setImage("Blindsiders.png");
+      setImage("blindsiders.png");
     } else {
       setBlindsidersBoolean(false);
       setTitle("Fairweather Friends");
@@ -27,9 +27,6 @@ export default function Home() {
       <FrontImage img={image} />
       <button onClick={showJazzyImage} type="button">
         Press for Surprise
-      </button>
-      <button>
-        <a href="/cube">Take me to the Cube</a>
       </button>
     </>
   );

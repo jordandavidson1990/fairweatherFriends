@@ -4,7 +4,7 @@ import {
   Slider,
   Slide,
   ButtonBack,
-  ButtonNext
+  ButtonNext,
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import { images } from "../helpers/data";
@@ -13,7 +13,7 @@ export default function Carousel() {
   const slides = images.map((image, index) => {
     return (
       <Slide index={index} key={index}>
-        <img src={`assets/photos/${image}`} alt={image} />
+        <img src={require(`../assets/photos/${image}`)} alt={image} />
       </Slide>
     );
   });
