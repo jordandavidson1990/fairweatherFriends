@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5113136b10482d3530bb609b570863a4",
+    "revision": "a1b2357bf1d5ebe06791a0bc179e7256",
     "url": "/fairweatherFriends/index.html"
   },
   {
-    "revision": "63b212f5bfbc37a13d68",
+    "revision": "a4d23006f019df704dba",
     "url": "/fairweatherFriends/static/css/1.20b94d65.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fairweatherFriends/static/css/2.9893639d.chunk.css"
   },
   {
-    "revision": "f4eea6321126e4a5324d",
+    "revision": "307ad284d0f4331236ee",
     "url": "/fairweatherFriends/static/css/3.34889c17.chunk.css"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fairweatherFriends/static/css/4.079de4a2.chunk.css"
   },
   {
-    "revision": "845a6ef05a89cec82201",
+    "revision": "b5164b44f56934661c8f",
     "url": "/fairweatherFriends/static/css/5.af38c967.chunk.css"
   },
   {
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fairweatherFriends/static/css/6.72d5056d.chunk.css"
   },
   {
-    "revision": "fc919a7048b09ba40584",
+    "revision": "6f2308a2314b718b1c01",
     "url": "/fairweatherFriends/static/css/main.9a97032d.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fairweatherFriends/static/js/0.5a6d5091.chunk.js"
   },
   {
-    "revision": "63b212f5bfbc37a13d68",
-    "url": "/fairweatherFriends/static/js/1.f6ef1776.chunk.js"
+    "revision": "a4d23006f019df704dba",
+    "url": "/fairweatherFriends/static/js/1.6073def6.chunk.js"
   },
   {
     "revision": "28fdc3184372e03246ca",
@@ -68,16 +68,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fairweatherFriends/static/js/2.c6f03ef0.chunk.js"
   },
   {
-    "revision": "f4eea6321126e4a5324d",
-    "url": "/fairweatherFriends/static/js/3.fd9b4bc8.chunk.js"
+    "revision": "307ad284d0f4331236ee",
+    "url": "/fairweatherFriends/static/js/3.bea0c3b6.chunk.js"
   },
   {
     "revision": "cc39afafc8a693d65685",
     "url": "/fairweatherFriends/static/js/4.28a825d3.chunk.js"
   },
   {
-    "revision": "845a6ef05a89cec82201",
-    "url": "/fairweatherFriends/static/js/5.1d4048e6.chunk.js"
+    "revision": "b5164b44f56934661c8f",
+    "url": "/fairweatherFriends/static/js/5.d6db3702.chunk.js"
   },
   {
     "revision": "962c7e1eeca9f2bc5977",
@@ -92,12 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fairweatherFriends/static/js/9.f4026186.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc919a7048b09ba40584",
-    "url": "/fairweatherFriends/static/js/main.a958b946.chunk.js"
+    "revision": "6f2308a2314b718b1c01",
+    "url": "/fairweatherFriends/static/js/main.84d7f510.chunk.js"
   },
   {
-    "revision": "6789cfe0cba24fa95f25",
-    "url": "/fairweatherFriends/static/js/runtime-main.05a50421.js"
+    "revision": "7e588b945a6ecc74f638",
+    "url": "/fairweatherFriends/static/js/runtime-main.30175d0d.js"
   },
   {
     "revision": "8bc9a22594f7b5eb5f76ac107b1feef4",
