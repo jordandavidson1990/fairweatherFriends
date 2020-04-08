@@ -16,7 +16,7 @@ export default function Navbar() {
 
   const links = pages.map((link, index) => {
     return (
-      <Link to={`/${link.toLowerCase()}`} key={index}>
+      <Link to={`/fairweatherFriends/${link.toLowerCase()}`} key={index}>
         <button
           onClick={(e) => handleClick(e)}
           value={link}

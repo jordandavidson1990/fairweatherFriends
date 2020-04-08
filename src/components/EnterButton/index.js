@@ -5,7 +5,10 @@ import { navigate } from "@reach/router";
 export default function EnterButton() {
   return (
     <div className="enter-container">
-      <button className="enter-button" onClick={() => navigate("/home")}>
+      <button
+        className="enter-button"
+        onClick={() => navigate("/fairweatherFriends/home")}
+      >
         Enter
       </button>
     </div>
