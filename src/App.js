@@ -28,7 +28,6 @@ function App() {
       <Suspense fallback={<LoadingPage />}>
         <Router primary={false} basepath={`${AppBaseUrl}`}>
           <Landing path="/" />
-
           <Home path="/home" />
           <Tunes path="/tunes" />
           <Gigs path="/gigs" />
