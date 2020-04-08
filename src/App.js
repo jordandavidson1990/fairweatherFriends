@@ -7,6 +7,7 @@ import LoadingPage from "./pages/LoadingPage";
 import Navbar from "./components/Navbar";
 import { lazyLoad } from "./helpers/helpers";
 import "./App.css";
+import { AppBaseUrl } from "./config/env";
 
 const Home = lazyLoad("Home");
 const Tunes = lazyLoad("Tunes");
@@ -25,9 +26,9 @@ function App() {
         <Navbar />
       </Suspense>
       <Suspense fallback={<LoadingPage />}>
-        <Router primary={false}>
+        <Router primary={false} basepath={`${AppBaseUrl}`}>
           <Landing path="/" />
-          <Landing path="/fairweatherFriends" />
+
           <Home path="/home" />
           <Tunes path="/tunes" />
           <Gigs path="/gigs" />
