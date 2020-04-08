@@ -1,47 +1,107 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "037cf2b4e4156761ba28826082b45bb7",
+    "revision": "1e176108eb446d84cd480480a8fb88bf",
     "url": "/fairweatherFriends/index.html"
   },
   {
-    "revision": "4b99fe0cfad796796de9",
-    "url": "/fairweatherFriends/static/css/2.72d5056d.chunk.css"
+    "revision": "0a12e1a6174fb833931a",
+    "url": "/fairweatherFriends/static/css/1.9893639d.chunk.css"
   },
   {
-    "revision": "84d03986c2eb5adbbaf4",
-    "url": "/fairweatherFriends/static/css/main.a5124525.chunk.css"
+    "revision": "28fdc3184372e03246ca",
+    "url": "/fairweatherFriends/static/css/10.3f5a1d29.chunk.css"
   },
   {
-    "revision": "4b99fe0cfad796796de9",
-    "url": "/fairweatherFriends/static/js/2.64082a34.chunk.js"
+    "revision": "2f7875c774a28650101b",
+    "url": "/fairweatherFriends/static/css/11.9893639d.chunk.css"
+  },
+  {
+    "revision": "ae319f9f5daf87f1f03d",
+    "url": "/fairweatherFriends/static/css/12.41fe700d.chunk.css"
+  },
+  {
+    "revision": "a7ce6066168c71283423",
+    "url": "/fairweatherFriends/static/css/2.34889c17.chunk.css"
+  },
+  {
+    "revision": "41b51d65e8f5896c5d00",
+    "url": "/fairweatherFriends/static/css/3.079de4a2.chunk.css"
+  },
+  {
+    "revision": "f9818ea1ec0ecc39580c",
+    "url": "/fairweatherFriends/static/css/4.af38c967.chunk.css"
+  },
+  {
+    "revision": "bbd877ab5e173c7b8f3c",
+    "url": "/fairweatherFriends/static/css/5.72d5056d.chunk.css"
+  },
+  {
+    "revision": "ce7eab3ebcc316f5f9b2",
+    "url": "/fairweatherFriends/static/css/main.9a97032d.chunk.css"
+  },
+  {
+    "revision": "acebfa291cec0c2af36c",
+    "url": "/fairweatherFriends/static/js/0.8d227b3e.chunk.js"
+  },
+  {
+    "revision": "0a12e1a6174fb833931a",
+    "url": "/fairweatherFriends/static/js/1.957c8315.chunk.js"
+  },
+  {
+    "revision": "28fdc3184372e03246ca",
+    "url": "/fairweatherFriends/static/js/10.ea43f63f.chunk.js"
+  },
+  {
+    "revision": "2f7875c774a28650101b",
+    "url": "/fairweatherFriends/static/js/11.5cf9b6de.chunk.js"
+  },
+  {
+    "revision": "ae319f9f5daf87f1f03d",
+    "url": "/fairweatherFriends/static/js/12.25e84e70.chunk.js"
+  },
+  {
+    "revision": "a7ce6066168c71283423",
+    "url": "/fairweatherFriends/static/js/2.fa34b659.chunk.js"
+  },
+  {
+    "revision": "41b51d65e8f5896c5d00",
+    "url": "/fairweatherFriends/static/js/3.33ec0716.chunk.js"
+  },
+  {
+    "revision": "f9818ea1ec0ecc39580c",
+    "url": "/fairweatherFriends/static/js/4.e6cee857.chunk.js"
+  },
+  {
+    "revision": "bbd877ab5e173c7b8f3c",
+    "url": "/fairweatherFriends/static/js/5.2077f014.chunk.js"
+  },
+  {
+    "revision": "11ee30122aac7b83f352",
+    "url": "/fairweatherFriends/static/js/6.fa9ca023.chunk.js"
+  },
+  {
+    "revision": "0323d671c7582f298ba9",
+    "url": "/fairweatherFriends/static/js/9.d7a4b008.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/fairweatherFriends/static/js/2.64082a34.chunk.js.LICENSE.txt"
+    "url": "/fairweatherFriends/static/js/9.d7a4b008.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "84d03986c2eb5adbbaf4",
-    "url": "/fairweatherFriends/static/js/main.b844ff69.chunk.js"
+    "revision": "ce7eab3ebcc316f5f9b2",
+    "url": "/fairweatherFriends/static/js/main.1bac2ba8.chunk.js"
   },
   {
-    "revision": "0ca98de4063beb251bf0",
-    "url": "/fairweatherFriends/static/js/runtime-main.2d174280.js"
+    "revision": "266e71588ca1a5e1e83a",
+    "url": "/fairweatherFriends/static/js/runtime-main.67a98125.js"
   },
   {
     "revision": "8bc9a22594f7b5eb5f76ac107b1feef4",
     "url": "/fairweatherFriends/static/media/EasinessAndI.8bc9a225.mp3"
   },
   {
-    "revision": "386ecd164b749dc5543a27e27b4fe4fc",
-    "url": "/fairweatherFriends/static/media/FWF.386ecd16.jpeg"
-  },
-  {
     "revision": "a6c0c8daf57a7f0fd8aba2eade400551",
     "url": "/fairweatherFriends/static/media/HandsomeJig.a6c0c8da.jpg"
-  },
-  {
-    "revision": "24025520242ddab8f6adf04c2bd0c72c",
-    "url": "/fairweatherFriends/static/media/IDWTK.24025520.jpg"
   },
   {
     "revision": "aadc909a211c5f18fe70d0fa83eb45e3",
@@ -62,10 +122,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8bcf9fb465521644bda51de3026bc170",
     "url": "/fairweatherFriends/static/media/JiggyPiano.8bcf9fb4.jpg"
-  },
-  {
-    "revision": "15d81dde6c610aba03a30df065ca2ffa",
-    "url": "/fairweatherFriends/static/media/Jiggy_surreal.15d81dde.jpg"
   },
   {
     "revision": "2aed3e72b11168ffcf2f47fca6bf9dd0",
@@ -96,10 +152,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fairweatherFriends/static/media/UpInTheAir.c63afde1.mp3"
   },
   {
-    "revision": "d487d50335b25d9abf39a0dac0de6f80",
-    "url": "/fairweatherFriends/static/media/UpInTheAir.d487d503.jpeg"
-  },
-  {
     "revision": "deaf4f1ab8743600fb74ea94c67b4c6a",
     "url": "/fairweatherFriends/static/media/WhereTheRiverFlows.deaf4f1a.mp3"
   },
@@ -110,10 +162,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "90842d8bd2f86c52a2d8e47d3712e779",
     "url": "/fairweatherFriends/static/media/blindsiders.90842d8b.png"
-  },
-  {
-    "revision": "7c0784fc689d901209822ee0e4b27128",
-    "url": "/fairweatherFriends/static/media/colours.7c0784fc.jpg"
   },
   {
     "revision": "e94107b8aba54b916e96f8c09cba7c66",
