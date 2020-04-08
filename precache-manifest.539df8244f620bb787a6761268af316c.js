@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1b2357bf1d5ebe06791a0bc179e7256",
+    "revision": "0991ab6e939c5a7c2cc0de47bdbfe3c4",
     "url": "/fairweatherFriends/index.html"
   },
   {
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fairweatherFriends/static/css/6.72d5056d.chunk.css"
   },
   {
-    "revision": "6f2308a2314b718b1c01",
+    "revision": "ebacc7a3e102975ec0e2",
     "url": "/fairweatherFriends/static/css/main.9a97032d.chunk.css"
   },
   {
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fairweatherFriends/static/js/9.f4026186.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f2308a2314b718b1c01",
-    "url": "/fairweatherFriends/static/js/main.84d7f510.chunk.js"
+    "revision": "ebacc7a3e102975ec0e2",
+    "url": "/fairweatherFriends/static/js/main.5ffff5ac.chunk.js"
   },
   {
     "revision": "7e588b945a6ecc74f638",
