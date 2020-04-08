@@ -1,0 +1,22 @@
+.carousel-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+  background: cadetblue;
+  border-radius: 90px;
+  margin-bottom: 10px;
+}
+
+.carousel-button {
+  background: cadetblue;
+  border: none;
+  /* color: #4f3b61; */
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+}
+
+.carousel-button button {
+  width: 100%;
+}

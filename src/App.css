@@ -8,10 +8,26 @@ body {
 a {
   text-decoration: none;
   font: bold;
-  color: black;
+  color: rgb(79, 59, 97);
 }
 
 html {
   position: relative;
   min-height: 100%;
+}
+
+h1 {
+  text-align: right;
+  margin-right: 1vw;
+}
+
+.photo-image {
+  border: 2px solid;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+p {
+  text-align: center;
 }

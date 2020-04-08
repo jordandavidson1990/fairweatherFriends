@@ -14,6 +14,7 @@
   background-color: cadetblue;
   color: #4f3b61;
   transition-duration: 1s;
+  border: 2px double cadetblue;
 }
 
 .enter-button:hover {

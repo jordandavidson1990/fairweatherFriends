@@ -21,3 +21,21 @@ audio {
   -webkit-border-radius: 7px 7px 7px 7px;
   border-radius: 7px 7px 7px 7px;
 }
+
+.audio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  overflow: scroll;
+  height: 50vh;
+  border: 2px solid;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.audio-single {
+  border: 2px solid;
+  padding: 10px;
+}

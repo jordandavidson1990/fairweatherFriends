@@ -14,7 +14,11 @@ export default function Gigs() {
       </a>
 
       <CountdownClock date={nextStream} content={"Next Set:"} />
-      <img src={require("../assets/photos/Ross4.jpeg")} alt="Sam and Jiggy" />
+      <img
+        src={require("../assets/photos/Ross4.jpeg")}
+        alt="Sam and Jiggy"
+        className="photo-image"
+      />
     </div>
   );
 }

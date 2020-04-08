@@ -9,15 +9,18 @@ export default function Tunes() {
     { title: "I Don't Want To Know", source: "IDontWantToKnow" },
     { title: "Making Ends Meet", source: "MakingEndsMeet" },
     { title: "Up In The Air", source: "UpInTheAir" },
-    { title: "Where The River Flows", source: "WhereTheRiverFlows" }
+    { title: "Where The River Flows", source: "WhereTheRiverFlows" },
   ];
 
   const audio = songTitles.map((songTitle, index) => {
     return (
-      <div key={index}>
+      <div key={index} className="audio-single">
         <p>{songTitle.title}</p>
         <audio controls>
-          <source src={`assets/${songTitle.source}.mp3`} type="audio/mp3" />
+          <source
+            src={require(`../assets/${songTitle.source}.mp3`)}
+            type="audio/mp3"
+          />
         </audio>
       </div>
     );
@@ -25,7 +28,7 @@ export default function Tunes() {
   return (
     <>
       <h1>Tunes</h1>
-      {audio}
+      <div className="audio-container">{audio}</div>
       <CountdownClock
         date={"2020-04-31T23:59:59.000Z"}
         content={"Next Song Drop:"}
