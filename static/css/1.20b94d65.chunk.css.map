@@ -1,0 +1,1 @@
+{"version":3,"sources":["FrontImage.css"],"names":[],"mappings":"AAAA,IACE,eAAgB,CAChB,gBACF","file":"1.20b94d65.chunk.css","sourcesContent":["img {\n  max-width: 100vw;\n  max-height: 100vh;\n}\n"]}
