@@ -10,7 +10,8 @@ export default function CountdownClock({ date, content }) {
     } else {
       return (
         <span>
-          {days} Days, {hours} Hours, {minutes} minutes, {seconds} seconds
+          {parseInt(days)} Days, {parseInt(hours)} Hours, {parseInt(minutes)}{" "}
+          minutes, {parseInt(seconds)} seconds
         </span>
       );
     }
