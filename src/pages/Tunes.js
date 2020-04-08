@@ -1,6 +1,5 @@
 import React from "react";
 import CountdownClock from "../components/Countdown";
-import HomeButton from "../components/buttons/HomeButton";
 import "./Tunes.css";
 
 export default function Tunes() {
@@ -33,7 +32,6 @@ export default function Tunes() {
         date={"2020-04-31T23:59:59.000Z"}
         content={"Next Song Drop:"}
       />
-      <HomeButton />
     </>
   );
 }
